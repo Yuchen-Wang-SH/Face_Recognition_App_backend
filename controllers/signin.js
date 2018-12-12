@@ -1,5 +1,8 @@
 const handleSignin = (req, res, db, bcrypt) => {
     const { email, password } = req.body;
+    if (!email || !password) {
+        return res.status(400).json('should not have blank text!');
+    }
     db.select('hash').from('login').where('email', '=', email)
     .then(data => {
         const isValid = bcrypt.compareSync(password, data[0].hash);
