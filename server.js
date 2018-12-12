@@ -14,10 +14,6 @@ const db = knex({
     }
   });
 
-// db.select('*').from('users').then(data => {
-//         console.log(data);
-// })
-
 const app = express();
 
 app.use(bodyParser.json());
@@ -104,9 +100,9 @@ app.get('/profile/:id', (req, res) => {
 })
 
 app.put('/image', (req, res) => {
-    const { id } = req.body;
+    const { id, numFaceDetected } = req.body;
     db('users').where('id', '=', id)
-    .increment('entries', 1)
+    .increment('entries', numFaceDetected)
     .returning('entries')
     .then(entries => {
         res.json(entries[0]);
