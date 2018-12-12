@@ -22,7 +22,7 @@ const handleRegister = (req, res, db, bcrypt) => {
         .then(trx.commit)
         .catch(err => {
             trx.rollback(err);
-            return res.status(400).json('haha');
+            return res.status(400).json('Duplicated user name');
         });
     })
 };
