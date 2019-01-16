@@ -17,12 +17,18 @@ Welcome to check my **front end** repo [**here**](https://github.com/Yuchen-Wang
 
 ## Register
 ![register](images/register.png)
+
 If the email has been registered or any blank has been detected, an `alert` will pop up in the browser:
+
 ![popup](images/popup.png)
+
 Or, you are successfully registered and automatically logged in.
 
 ## Sign In
 ![signin](images/signin.png)
+
 If your email and password do not pass the authentication, an `alert` will pop up in the browser:
+
 ![popSignin](images/popSignin.png)
+
 Or you will successfully log in.
