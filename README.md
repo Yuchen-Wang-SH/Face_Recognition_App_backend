@@ -6,7 +6,7 @@ https://image-recog-app-yuchenwang.herokuapp.com/
 
 Welcome to check my **front end** repo [**here**](https://github.com/Yuchen-Wang-SH/Face_Recognition_App_frontend).
 
-## The App
+## Face Detection
 ![detection](images/detection.png)
 ### Usage
 - Copy the URL of an image and paste it into the text box;
