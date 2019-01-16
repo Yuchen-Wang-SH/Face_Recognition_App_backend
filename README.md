@@ -4,7 +4,7 @@ https://image-recog-app-yuchenwang.herokuapp.com/
 
 **Attention**: If you have trouble opening this web page, please refresh the page to try again since heroku apps hibernate if there is no traffic for a certain time.
 
-Welcome to check my front end repo [here](https://github.com/Yuchen-Wang-SH/Face_Recognition_App_frontend).
+Welcome to check my front end repo **[here]**(https://github.com/Yuchen-Wang-SH/Face_Recognition_App_frontend).
 
 ## The App
 ![detection](images/detection.png)
